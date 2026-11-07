@@ -1,0 +1,14 @@
+{
+  "name": "insyde-accessibility-audit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A WCAG 2.2 AA audit script (axe-core + Playwright) and the results of running it against the INSYDE web app.",
+  "scripts": {
+    "audit": "node scripts/audit.js",
+    "keyboard": "node scripts/keyboard-check.js"
+  },
+  "dependencies": {
+    "axe-core": "^4.10.0",
+    "playwright-core": "^1.48.0"
+  }
+}
